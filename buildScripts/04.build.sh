@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# shellcheck source=SCRIPTDIR/../buildScripts/setEnv.sh
 . ./buildScripts/setEnv.sh
 
 echo "Getting service principal credentials..."
